@@ -18,6 +18,10 @@ public class Account {
 		this.initialAmount = initialAmount;
 		this.transactions = new ArrayList<Transaction>();
 	}
+
+	public void addTransaction(Transaction transaction) {
+		transactions.add(transaction);
+	}
 	
 	public float getCurrentBalance() {
 		
